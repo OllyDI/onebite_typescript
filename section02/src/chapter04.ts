@@ -7,6 +7,7 @@ type User = {
     bio: string;
     location: string;
 }
+
 function func() { type User = {} }
 
 let user: User = {
