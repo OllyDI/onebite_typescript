@@ -12,14 +12,14 @@ let doubleArr: number[][] = [
     [4, 5]
 ];
 
-// 튜플: 타입스크립트에서만 제공 -> 길이와 타입이 고정된 배열
+// tuple 튜플: 타입스크립트에서만 제공 -> 길이와 타입이 고정된 배열
 let tup1: [number, number] = [1, 2];
 let tup2: [number, string, boolean] = [1, "2", true];
 
-// 튜플 용도
+// tuple 튜플 용도
 // const users: [string, number][] = [
 //     ["tset1", 1],
 //     ["test2", 2],
 //     ["test3", 3],
-//     [5, "test4"] <- 이부분
+//     [5, "test4"] <- 이부분과 같이 값을 잘못 넣는걸 방지
 // ]
