@@ -45,6 +45,7 @@ function login(user: User) {
 // 로딩 -> 콘솔에 로딩 출력
 // 실패 -> 에러 메시지 출력
 // 성공 -> 데이터 출력
+// AsyncTask를 타입 하나로 선언시 물음표를 지우면 에러 발생 -> AsyncTask를 세 개의 타입으로 나누어 사용
 // type AsyncTask = {
 //     state: 'LOADING' | 'FAILED' | 'SUCCESS';
 //     error?: {
